@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Donate Blood</title>
+	<link rel="stylesheet" type="text/css" href="Donate.css">
+</head> 
+<body>	
+	<header class="abc" >
+		<nav>
+			<br>
+			<p><a href="index.html">Home</a></p>
+			<p><a href="#">Donate Blood</a></p>
+			<p><a href="Recent.html">Recent Camps</a></p>
+			<p><a href="About.html">About Us</a></p>
+			<p><a href="contact.html">Contact Us</a></p>
+		</nav>
+	</header>
+	<div>
+		<br><br>
+		<center><h2 style="color:white;font-family:cursive;">Please enter valid details</h2></center>
+		<form action="Donate.php" method="POST">
+			<label>Donar Name:</label>
+			<input type="text"name="Name" required placeholder="Enter your name"><br><br>
+			<label>Mobile Number:</label>
+			<input type="text" name="mobile" required placeholder="Enter mobile number"><br><br>
+			<label>Blood Group:</label>
+			<select id="blood" name="blood1"><br><br>
+				<option value="">Select blood group</option>
+				<option value="A+">A+</option>
+				<option value="A-">A-</option>
+				<option value="B+">B+</option>
+				<option value="B-">B-</option>
+				<option value="AB+">AB+</option>
+				<option value="AB-">AB-</option>
+				<option value="O+">O+</option>
+				<option value="O-">O-</option>
+			</select><br><br>
+			<button> Submit</button>
+		</form>
+	</div>
+</body>
+</html>

@@ -1,0 +1,171 @@
+*
+{
+	padding:0px;
+	margin:0px;
+}
+body
+{
+	background:rgb(255, 0, 0,0.5);
+}
+header
+{
+	background-color:rgba(0, 0, 0);
+	position:fixed;
+	top:0%;
+	width:100%;
+	height:10%;
+	z-index:1000;
+}
+p
+{	
+	padding-left:5px;
+	text-align:center;
+	bottom:2%;
+	display:inline;
+	padding-right:3%;
+
+}
+a
+{
+	color:white;
+	text-decoration:none;
+	font-family:sans-serif;
+	font-size:24px;
+}
+.recent1>p>a,.recent2>p>a,.recent3>p>a,.recent4>p>a{
+	color:yellow;
+	font-family:cursive;
+	text-decoration:underline;
+}
+.recent1h3
+{
+	font-family:cursive;
+	position:absolute;
+	left:10%;
+	top:20%;
+}
+.recent1
+{
+	position:absolute;
+	width:80%;
+	height:50%;
+	left:10%;
+	top:25%;
+	background-color:rgba(0,0,0,0.5);
+}
+.recent1>img
+{
+	position:absolute;
+	width:50%;
+	height:100%;
+}
+.recent1>p
+{
+	top:5%;
+	position:absolute;
+	width:45%;
+	height:100%;
+	left:52.5%;
+	text-align:justify;
+	font-family:cursive;
+	font-size:18px;
+}
+.recent2h3
+{
+	font-family:cursive;
+	position:absolute;
+	left:10%;
+	top:90%;
+}
+.recent2
+{
+	position:absolute;
+	width:80%;
+	height:50%;
+	left:10%;
+	top:95%;
+	background-color:rgba(0,0,0,0.5);
+}
+.recent2>img
+{
+	position:absolute;
+	width:50%;
+	height:100%;
+}
+.recent2>p
+{
+	top:5%;
+	position:absolute;
+	width:45%;
+	height:100%;
+	left:52.5%;
+	text-align:justify;
+	font-family:cursive;
+	font-size:18px;
+}
+.recent3h3
+{
+	font-family:cursive;
+	position:absolute;
+	left:10%;
+	top:155%;
+}
+.recent3
+{
+	position:absolute;
+	width:80%;
+	height:50%;
+	left:10%;
+	top:160%;
+	background-color:rgba(0,0,0,0.5);
+}
+.recent3>img
+{
+	position:absolute;
+	width:50%;
+	height:100%;
+}
+.recent3>p
+{
+	top:5%;
+	position:absolute;
+	width:45%;
+	height:100%;
+	left:52.5%;
+	text-align:justify;
+	font-family:cursive;
+	font-size:18px;
+}
+.recent4h3
+{
+	font-family:cursive;
+	position:absolute;
+	left:10%;
+	top:215%;
+}
+.recent4
+{
+	position:absolute;
+	width:80%;
+	height:50%;
+	left:10%;
+	top:220%;
+	background-color:rgba(0,0,0,0.5);
+}
+.recent4>img
+{
+	position:absolute;
+	width:50%;
+	height:100%;
+}
+.recent4>p
+{
+	top:5%;
+	position:absolute;
+	width:45%;
+	height:100%;
+	left:52.5%;
+	text-align:justify;
+	font-family:cursive;
+	font-size:18px;
+}
